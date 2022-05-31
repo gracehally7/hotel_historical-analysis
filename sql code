@@ -1,0 +1,10 @@
+create table meal_cost (
+ cost varchar,
+ meal varchar);
+ copy meal_cost from 'C:\Program Files\PostgreSQL\hotel_data\meal_cost.csv' CSV header;
+ 
+ create table market_segment(
+ Discount varchar,
+ market_segment varchar);
+ copy market_segment from 'C:\Program Files\PostgreSQL\hotel_data\market_segment.csv' CSV header;
+ 
